@@ -1,0 +1,9 @@
+source;share/ssros_ts/hook/pythonpath.ps1
+source;share/ssros_ts/hook/pythonpath.dsv
+source;share/ssros_ts/hook/pythonpath.sh
+source;share/ssros_ts/hook/ament_prefix_path.ps1
+source;share/ssros_ts/hook/ament_prefix_path.dsv
+source;share/ssros_ts/hook/ament_prefix_path.sh
+source;../../build/ssros_ts/share/ssros_ts/hook/pythonpath_develop.ps1
+source;../../build/ssros_ts/share/ssros_ts/hook/pythonpath_develop.dsv
+source;../../build/ssros_ts/share/ssros_ts/hook/pythonpath_develop.sh

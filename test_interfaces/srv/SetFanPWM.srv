@@ -1,0 +1,3 @@
+int32 pwm
+---
+bool success # indicating micom manager received the request

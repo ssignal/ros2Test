@@ -1,0 +1,4 @@
+[console_scripts]
+listener = ssros_ts.subscriber_member_function:main
+talker = ssros_ts.publisher_member_function:main
+

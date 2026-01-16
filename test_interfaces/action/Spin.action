@@ -1,0 +1,15 @@
+# goal definition
+float32 target_yaw
+---
+# result definition
+# Error codes
+uint16 NONE=0
+uint16 UNKNOWN=700
+uint16 TIMEOUT=701
+uint16 TF_ERROR=702
+
+# bool   success
+uint16 error_code
+---
+# feedback definition
+float32 angular_distance_traveled
