@@ -1,0 +1,19 @@
+Terminal 1
+
+In the first terminal, you'll need to source the ROS2 environment and your workspace, then run the turtlesim_node:
+
+ 1 source /opt/ros/humble/setup.bash
+ 2 cd ros2_ws
+ 3 source install/setup.bash
+ 4 ros2 run turtlesim turtlesim_node
+
+Terminal 2
+
+In the second terminal, you will also source the ROS2 environment and your workspace. Then you can run any of the movement nodes you created. For example, to run the triangle_node:
+
+ 1 source /opt/ros/humble/setup.bash
+ 2 cd ros2_ws
+ 3 source install/setup.bash
+ 4 ros2 run turtlesim_triangle triangle_node
+
+To run the other movement nodes, simply replace turtlesim_triangle and triangle_node with the corresponding package and node names (turtlesim_circle/circle_node or turtlesim_rectangle/rectangle_node).
