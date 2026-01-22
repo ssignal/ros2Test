@@ -1,1 +1,0 @@
-/home/ssignal/work/ros2Test/ssros_ts/setup.py
